@@ -110,3 +110,24 @@ lines`);
 //string & Template literals Excercise
 description = `${country} , is in ${continent}, and its ${population} million people speak ${language}`;
 console.log(description);
+
+//Taking decision if.../else statement
+const age = 15;
+
+if (age >= 18) {
+  console.log("Annie can start driving license ");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(
+    `Annie is too young. She has to wait another ${yearsLeft} years:`
+  );
+}
+
+const yearOfBirth = 2012;
+let century;
+if (yearOfBirth <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
