@@ -61,3 +61,13 @@ console.log(description);
 //precedence operator
 const averageage = (agefidies + agemom) / 2;
 console.log(agefidies, agemom, averageage);
+
+//coding challenge #1
+const heightMark = 1.69;
+const heightJohn = 1.95;
+const massMark = 78;
+const massJohn = 92;
+BMIMark = massMark / (heightMark * heightMark);
+console.log(BMIMark);
+BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIJohn);
