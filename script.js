@@ -43,3 +43,17 @@ console.log(x);
 //comparison operator
 console.log(agefidies > agemom); /// > < >=, <=
 console.log(agefidies >= 18);
+
+//Basic operators challenge
+
+let population = 10;
+console.log(population / 2);
+population++;
+console.log(population);
+let finlandPopulation = 6;
+console.log(finlandPopulation > population);
+const averagepopulation = 33;
+console.log(population < averagepopulation);
+let description =
+  "Portugal is in Europe, and its 11 million people speak portuguese";
+console.log(description);
