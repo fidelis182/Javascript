@@ -1,12 +1,11 @@
-// Values & Variables
-// let country = "Kenya";
-// let continent = "Africa";
-// let population = "10 million";
-// console.log(country, continent, population);
+let country = "Kenya";
+let continent = "Africa";
+let population = "10 million";
+console.log(country, continent, population);
 
 // // Data Types
 // let isIsland = false;
-// let language;
+let language = "English";
 // console.log(country);
 // console.log(continent);
 // console.log(population);
@@ -45,8 +44,7 @@ console.log(agefidies > agemom); /// > < >=, <=
 console.log(agefidies >= 18);
 
 //Basic operators challenge
-
-let population = 10;
+population = 10;
 console.log(population / 2);
 population++;
 console.log(population);
@@ -71,3 +69,44 @@ BMIMark = massMark / (heightMark * heightMark);
 console.log(BMIMark);
 BMIJohn = massJohn / (heightJohn * heightJohn);
 console.log(BMIJohn);
+const markHigherBMI = BMIMark > BMIJohn;
+console.log(markHigherBMI);
+
+//Strings and templates
+const job = "programmer";
+const birthYear = 1991;
+
+const fidies =
+  "I`m " +
+  firstName +
+  ", a " +
+  (currentYear - birthYear) +
+  "years old " +
+  job +
+  "!";
+console.log(fidies);
+
+//template literals
+const fidiesnew = `I'm ${firstName}, a ${
+  currentYear - birthYear
+} year old ${job}`;
+console.log(fidiesnew);
+
+//back ticks
+console.log(`just a regular string...`);
+
+//multline string old way
+console.log(
+  "string with \n\
+multiple \n\
+lines"
+);
+
+//multi line string with back sticks
+console.log(`string
+multiple
+lines`);
+
+//string & Template literals Excercise
+description = `${country} , is in ${continent}, and its ${population} million people speak ${language}`;
+console.log(description);
