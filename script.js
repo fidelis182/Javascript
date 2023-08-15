@@ -57,3 +57,7 @@ console.log(population < averagepopulation);
 let description =
   "Portugal is in Europe, and its 11 million people speak portuguese";
 console.log(description);
+
+//precedence operator
+const averageage = (agefidies + agemom) / 2;
+console.log(agefidies, agemom, averageage);
