@@ -136,20 +136,58 @@
 // console.log(century);
 
 //#challenge 2
-const heightMark = 1.69;
-const heightJohn = 1.95;
-const massMark = 78;
-const massJohn = 92;
-BMIMark = massMark / (heightMark * heightMark);
-console.log(BMIMark);
-BMIJohn = massJohn / (heightJohn * heightJohn);
-console.log(BMIJohn);
-if (BMIMark > BMIJohn) {
-  console.log(
-    `Marks's BMI (${BMIMark}) is higher than Jonh's BMI (${BMIJohn})`
-  );
-} else {
-  console.log(
-    "John`s BMI (${BMIJohn}) is higher than Mark`s BMI (${BMIMark}) "
-  );
+// const heightMark = 1.69;
+// const heightJohn = 1.95;
+// const massMark = 78;
+// const massJohn = 92;
+// BMIMark = massMark / (heightMark * heightMark);
+// console.log(BMIMark);
+// BMIJohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMIJohn);
+// if (BMIMark > BMIJohn) {
+//   console.log(
+//     `Marks's BMI (${BMIMark}) is higher than Jonh's BMI (${BMIJohn})`
+//   );
+// } else {
+//   console.log(
+//     "John`s BMI (${BMIJohn}) is higher than Mark`s BMI (${BMIMark}) "
+//   );
+// }
+
+//Type conversion and coersion
+
+//type conversion - convert from one type to another
+const inputYear = "1991";
+console.log(Number(inputYear), inputYear); //converts string to number by using Number function
+console.log(Number(inputYear) + 18);
+//To convert a value to a string use String function
+
+//type coercion
+console.log("I am " + 23 + "years old");
+// + does automatic conversion which is coercion
+//converts numbers to strings
+//- does the opposite of what + does
+//* converts strings to numbers
+
+//guess the output
+let n = "1" + 1;
+n = n - 1;
+console.log(n);
+
+/* lets create that takes in your name and says hello
+followed by your name 
+
+for example
+Name:Jane
+Return: "Hello jane"
+*/
+
+// created a function
+function greet() {
+  var name = prompt("What is your name");
+  var result = "Hello " + name; // string concatenation
+  console.log(result);
 }
+
+// calling the function
+greet();
