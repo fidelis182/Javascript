@@ -157,22 +157,22 @@
 //Type conversion and coersion
 
 //type conversion - convert from one type to another
-const inputYear = "1991";
+/*const inputYear = "1991";
 console.log(Number(inputYear), inputYear); //converts string to number by using Number function
-console.log(Number(inputYear) + 18);
+console.log(Number(inputYear) + 18); */
 //To convert a value to a string use String function
 
 //type coercion
-console.log("I am " + 23 + "years old");
+// console.log("I am " + 23 + "years old");
 // + does automatic conversion which is coercion
 //converts numbers to strings
 //- does the opposite of what + does
 //* converts strings to numbers
 
 //guess the output
-let n = "1" + 1;
+/*let n = "1" + 1;
 n = n - 1;
-console.log(n);
+console.log(n); */
 
 /* lets create that takes in your name and says hello
 followed by your name 
@@ -183,11 +183,23 @@ Return: "Hello jane"
 */
 
 // created a function
-function greet() {
+/*function greet() {
   var name = prompt("What is your name");
   var result = "Hello " + name; // string concatenation
   console.log(result);
-}
+}*/
 
 // calling the function
-greet();
+// greet();
+
+// While loops
+//var num = 0;
+/*while (num < 100) {
+  num += 1;
+  console.log(num);
+} */
+// for loop
+
+for (let num = 0; num < 100; num++) {
+  console.log(num);
+}
