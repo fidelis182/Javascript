@@ -75,3 +75,11 @@ body {
   color: #088178;
 }
 /* Home Page */
+#hero {
+  background-image: url(/home/nzovia/Learning_js/e-commerce/images/jacket.png);
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0 left 75%;
+}
