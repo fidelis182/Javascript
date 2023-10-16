@@ -200,6 +200,42 @@ Return: "Hello jane"
 } */
 // for loop
 
-for (let num = 0; num < 100; num++) {
-  console.log(num);
+// for (let num = 0; num < 100; num++) {
+//   console.log(num);
+// }
+
+// use of strict mode
+/*"use strict";
+let hasDriversLicense = false;
+const passTest = true;
+
+if (passTest) hasDriversLicense = true;
+if (hasDriversLicense) console.log("I can drive:D");
+
+// Function
+function logger() {
+  console.log("My name is fidies");
 }
+// calling, invoking, running the function
+logger();
+
+function fruitProcessor(apples, oranges) {
+  const juice = `juice with ${apples} apples and ${oranges} oranges.`;
+  return juice;
+}
+const appleJuice = fruitProcessor(5, 0);
+console.log(appleJuice); */
+//
+// arrow function
+const calcAge3 = (birthyear) => 2037 - birthyear;
+const age3 = calcAge3(1991);
+console.log(age3);
+
+const yearsUntilRetirement = (birthyear, firstName) => {
+  const age = 2037 - birthyear;
+  const retirement = 65 - age;
+  // return retirement; // return retirement;
+  return `${firstName} retires in ${retirement}`;
+};
+console.log(yearsUntilRetirement(1991, "jonas"));
+console.log(yearsUntilRetirement(2000, "Fidiie"));

@@ -38,6 +38,10 @@ body {
   padding: 20px 80px;
   background: #e3e6f3;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 #header img {
   height: auto;
@@ -76,10 +80,29 @@ body {
 }
 /* Home Page */
 #hero {
-  background-image: url(/home/nzovia/Learning_js/e-commerce/images/jacket.png);
-  background-repeat: no-repeat;
+  background-image: url(/home/nzovia/Learning_js/e-commerce/img/hero4.png);
   height: 90vh;
   width: 100%;
   background-size: cover;
-  background-position: top 25% right 0 left 75%;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+#hero h4 {
+  padding-bottom: 15px;
+}
+#hero h1 {
+  color: #088178;
+}
+#hero button {
+  background-image: url("/home/nzovia/Learning_js/e-commerce/img/button.png");
+  background-color: transparent;
+  color: #088178;
+  border: 0;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
