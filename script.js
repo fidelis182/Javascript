@@ -227,7 +227,7 @@ const appleJuice = fruitProcessor(5, 0);
 console.log(appleJuice); */
 //
 // arrow function
-const calcAge3 = (birthyear) => 2037 - birthyear;
+/*const calcAge3 = (birthyear) => 2037 - birthyear;
 const age3 = calcAge3(1991);
 console.log(age3);
 
@@ -238,4 +238,74 @@ const yearsUntilRetirement = (birthyear, firstName) => {
   return `${firstName} retires in ${retirement}`;
 };
 console.log(yearsUntilRetirement(1991, "jonas"));
-console.log(yearsUntilRetirement(2000, "Fidiie"));
+console.log(yearsUntilRetirement(2000, "Fidiie"));*/
+
+/*function cutFruitPieces(fruit) {
+  return fruit * 4;
+}
+// function calling another function
+function fruitProcessor(apples, oranges) {
+  const applePieces = cutFruitPieces(apples);
+  const orangesPieces = cutFruitPieces(oranges);
+  const juice = `juice with ${applePieces} pieces of apples and ${orangesPieces} pieces of oranges.`;
+  return juice;
+}
+console.log(fruitProcessor(2, 3));*/
+
+// Arrays
+// one way of declararing arrays literal syantax
+const friends = ["Michael", "Steven", "peter"];
+// push method - adds elements at the end of an array
+friends.push("jay");
+console.log(friends);
+// To add elements at the begining of an array use the unshift()method
+friends.unshift("fiddie");
+console.log(friends);
+
+// To remove last element  use pop()method
+const popped = friends.pop();
+console.log(friends);
+console.log(popped);
+
+// To remove first elemnts use shift()
+friends.shift();
+console.log(friends);
+
+// To identfy the index  of an element
+console.log(friends.indexOf("Steven"));
+
+// another way
+// const year = new Array(1991, 2000, 2010, 2019, 2023);
+// console.log(year);
+
+// to retrieve elements from array
+// console.log(friends[0]);
+
+// // to actual number of elements in the array
+// console.log(friends.length);
+// // To get nth index
+// console.log(friends[friends.length - 1]);
+
+// // To add elements in the array or update
+// friends[2] = "Jay";
+// console.log(friends);
+
+// Basic array methods
+
+// excercise
+/*const calcAge = function (birthYear) {
+  return 2037 - birthYear;
+};
+const years = [1990, 1967, 2002, 2010, 2018];
+const age1 = calcAge(years[0]);
+const age2 = calcAge(years[1]);
+const age3 = calcAge(years[years.length - 1]);
+console.log(age1, age2, age3);
+
+const ages = [
+  calcAge(years[0]),
+  calcAge(years[1]),
+  calcAge(years[years.length - 1]),
+];
+console.log(ages);
+// */
