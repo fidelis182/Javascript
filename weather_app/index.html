@@ -34,5 +34,26 @@
       </div>
     </div>
   </div>
+  <script>
+    const apiKey="d9cb7608b836350bbb0f45f8e6b094f7";
+    const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=denmark";
+
+
+/*
+async function checkWeather(): Declares an asynchronous function named checkWeather.
+ Asynchronous functions can pause execution until a promise is resolved using await.
+
+*/
+    async function checkWeather() {
+      const response = await fetch(apiUrl+`&appid=${apiKey}`);
+      //variable data stores the response
+      var data = await response.json();
+
+      console.log(data);
+      
+    }
+    //call the function so it can display on the console
+    checkWeather();
+  </script>
 </body>
 </html>
