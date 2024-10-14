@@ -1,0 +1,14 @@
+
+.container {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+.story{
+  background-color:#ffff;
+}
+
+button {
+  
+  width: 200px;
+}
